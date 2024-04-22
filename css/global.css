@@ -199,6 +199,19 @@ color:#fff;
 color:#e1a730!important; 
  }
 /*********************header_end****************/
+#preloder{
+  background-color: #FFF ;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/vr1site.appspot.com/o/loader.gif?alt=media&token=4d948fbf-ecba-4973-9f6a-b599aebe5adc) ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size:cover;
+  background-position: center;
+  position: fixed;
+  background-size: 37%;
+  z-index:100;
+
+}
 
 /*********************common****************/
 .pages ul li{
