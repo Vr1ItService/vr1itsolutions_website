@@ -25,6 +25,10 @@
 
 </head>
 <body>
+
+	<div id="preloder">
+		
+	</div>
 <section id="top">
  <div class="container-fluid p-0">
   <div class="row top_1 m-0">
@@ -1245,6 +1249,13 @@ function myFunction() {
 }
 </script>
 <script src="js/reviewscroll.js"></script>
+
+	<script>
+	var loder = document.getElementById("preloder");
+	window.addEventListener("load",function(){
+		loder.style.display="none";
+	})
+</script>
 </body>
 
 </html>
